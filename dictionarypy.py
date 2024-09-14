@@ -20,3 +20,9 @@ print (student)
 
 print (ages)
 
+print (len(student))
+
+print (student.items())
+
+for key,values in student.items():
+    print (key,values)
