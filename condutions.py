@@ -13,5 +13,7 @@ logged_in=True #false will be logged
 
 if user=='admin' and logged_in:
     print("You are logged in as admin")
+elif not logged_in:
+    print("You are not logged in")
 else:
     print("You are not logged in")
