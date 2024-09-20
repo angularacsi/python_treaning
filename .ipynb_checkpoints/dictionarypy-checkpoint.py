@@ -26,3 +26,4 @@ print (student.items())
 
 for key,values in student.items():
     print (key,values)
+print (len(student))
